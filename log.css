@@ -1,0 +1,149 @@
+html 
+{
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;}
+
+body 
+
+{
+    background: url(tumblr_b77122f425c38e883d2ec80167ca097b_24f63255_500.gif);
+     /* background-image: linear-gradient(rgb(213, 0, 114),rgb(210, 0, 230)); */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.log-box 
+{
+    background-color: rgba(247, 247, 247, 0.526);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 32px 0 rgba(0,0,0,.90);
+    border-radius: 25px;
+    width: 550px;
+    height: 650px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+
+}
+
+
+.logo 
+{
+
+
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.usr 
+{
+
+    width: 300px;
+    height: 25px;
+    padding: 7px 3px 7px 3px ;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: rgba(23, 23, 23, 0.497);
+    border: 0px rgba(23, 23, 23, 0.497) solid ;
+    margin: 30px;
+    transition: .90s;
+}
+
+.usr:hover 
+{
+    width: 360px;
+    height: 35px;
+    transition: .90s;
+}
+
+.paw 
+{ 
+
+    width: 300px;
+    height: 25px;
+    padding: 7px 3px 7px 3px ;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: rgba(23, 23, 23, 0.497);
+    border: 0px rgba(23, 23, 23, 0.497) solid ;
+    transition: .90s;
+
+}
+
+.paw:hover 
+{
+    width: 360px;
+    height: 35px;
+    transition: .90s;
+}
+
+
+
+
+.log-box2 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn 
+{
+    width: 320px;
+    height: 30px;
+    font-size: 19px;
+    background: rgb(233, 19, 133);
+    border: 0px solid  rgb(233, 19, 133) ;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    transition: 0.80s;
+    margin-bottom: 20px;
+}
+
+.btn:hover 
+{
+    background: rgb(173, 14, 99);
+    transition: 0.80s;
+}
+
+.fp 
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.51);
+    margin-top: 25px;
+    transition: .90s;
+    
+}
+
+.fp:hover 
+{
+    font-size: 20px;
+    transition: .90s;
+}
+
+.da 
+{
+    text-decoration: none;
+    color: rgb(66, 61, 61);
+    margin-top: 30px;
+}
